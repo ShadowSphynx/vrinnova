@@ -1,5 +1,5 @@
 .main {
-  height: 100vh;
+  height: 90vh;
 }
 
 .info {
@@ -48,6 +48,11 @@
   padding-bottom: 13rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 @media (min-width: 540px) {
   .sm\:w-auto {
     width: auto;
@@ -93,18 +98,6 @@
 }
 
 @media (min-width: 1024px) {
-  .lg\:invisible {
-    visibility: hidden;
-  }
-
-  .lg\:absolute {
-    position: absolute;
-  }
-
-  .lg\:flex {
-    display: flex;
-  }
-
   .lg\:h-max {
     height: -moz-max-content;
     height: max-content;
@@ -140,10 +133,6 @@
   max-width: 32rem;
 }
 
-.flex {
-  display: flex;
-}
-
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -154,10 +143,6 @@
 
 .text-center {
   text-align: center;
-}
-
-.block {
-  display: block;
 }
 
 .rounded {

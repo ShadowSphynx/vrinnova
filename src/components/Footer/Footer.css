@@ -11,50 +11,6 @@
   background-color: rgb(34 34 34 / var(--tw-bg-opacity));
 }
 
-.container {
-  width: 100%;
-  padding-right: 2rem;
-  padding-left: 2rem;
-}
-
-@media (min-width: 540px) {
-  .container {
-    max-width: 540px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1320px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .row {
   --bs-gutter-x: 2rem;
   --bs-gutter-y: 0;
@@ -75,10 +31,6 @@
   margin-top: var(--bs-gutter-y);
 }
 
-.items-center {
-  align-items: center;
-}
-
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -87,10 +39,6 @@
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
-}
-
-.max-w-screen-xl {
-  max-width: 1280px;
 }
 
 .content-end {
@@ -119,33 +67,14 @@
   padding-bottom: 1.5rem;
 }
 
-@media (min-width: 1024px) {
-  .lg\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
+img,
+video {
+  max-width: 100%;
+  height: auto;
 }
 
 .col-span-12 {
   grid-column: span 12 / span 12;
-}
-
-@media (min-width: 768px) {
-  .md\:grid-cols-12 {
-    grid-template-columns: repeat(12, minmax(0, 1fr));
-  }
-
-  .md\:col-span-3 {
-    grid-column: span 3 / span 3;
-  }
-}
-
-.flex {
-  display: flex;
-}
-
-.justify-center {
-  justify-content: center;
 }
 
 .text-gray-500 {
@@ -158,34 +87,8 @@
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
-.font-medium {
-  font-weight: 500;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.navbar-brand {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  font-weight: 600;
-  --tw-text-opacity: 1;
-  color: rgb(2 39 82 / var(--tw-text-opacity));
-}
-
-:is(.dark .navbar-brand) {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.navbar-brand image {
-  max-height: 100%;
-  max-width: 100%;
-}
-
-.inline-block {
-  display: inline-block;
 }
 
 .max-w-xs {
@@ -200,15 +103,6 @@
   margin-bottom: 1.5rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.font-semibold {
-  font-weight: 600;
-}
-
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
@@ -220,10 +114,6 @@
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.gap-2 {
-  gap: 0.5rem;
 }
 
 .max-w-fit {
@@ -281,4 +171,21 @@
 
 .mt-2 {
   margin-top: 3px;
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-12 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .md\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 }
