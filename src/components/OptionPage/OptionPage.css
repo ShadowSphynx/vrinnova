@@ -137,7 +137,7 @@
 
 .line-clamp-5 {
   display: -webkit-box;
-  display: box;
+  display: flex;
   -webkit-box-orient: vertical;
   box-orient: vertical;
   -webkit-line-clamp: 5;
