@@ -2,7 +2,6 @@
   "name": "vrinnova",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ShadowSphynx.github.io/vrinnova",
   "dependencies": {
     "@mantine/core": "^7.14.0",
     "@mantine/hooks": "^7.14.0",
