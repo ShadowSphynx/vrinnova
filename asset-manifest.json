@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/vrinnova/static/css/main.9fae9854.css",
-    "main.js": "/vrinnova/static/js/main.049a338a.js",
+    "main.css": "/vrinnova/static/css/main.aea3e885.css",
+    "main.js": "/vrinnova/static/js/main.663ed6a5.js",
     "static/js/453.95dd74e7.chunk.js": "/vrinnova/static/js/453.95dd74e7.chunk.js",
-    "static/media/logo.png": "/vrinnova/static/media/logo.ad53b94e773dd5f484ca.png",
-    "static/media/background.jpg": "/vrinnova/static/media/background.b87f6fd184bf1bde9302.jpg",
+    "static/media/logo.png": "/vrinnova/static/media/logo.bdccbcc2362157b23fb7.png",
     "index.html": "/vrinnova/index.html",
-    "main.9fae9854.css.map": "/vrinnova/static/css/main.9fae9854.css.map",
-    "main.049a338a.js.map": "/vrinnova/static/js/main.049a338a.js.map",
+    "main.aea3e885.css.map": "/vrinnova/static/css/main.aea3e885.css.map",
+    "main.663ed6a5.js.map": "/vrinnova/static/js/main.663ed6a5.js.map",
     "453.95dd74e7.chunk.js.map": "/vrinnova/static/js/453.95dd74e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fae9854.css",
-    "static/js/main.049a338a.js"
+    "static/css/main.aea3e885.css",
+    "static/js/main.663ed6a5.js"
   ]
 }
