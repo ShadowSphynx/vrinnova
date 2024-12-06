@@ -1,0 +1,146 @@
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.from-body {
+  --tw-gradient-from: #fff var(--tw-gradient-from-position);
+  --tw-gradient-to: hsla(0, 0%, 100%, 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-theme-light {
+  --tw-gradient-to: #f6f6f6 var(--tw-gradient-to-position);
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.content {
+  color: var(--tw-prose-body);
+  max-width: none;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 540px) {
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.gap-16 {
+  gap: 4rem;
+}
+
+.max-w-sm {
+  max-width: 24rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.tracking-tight {
+  letter-spacing: -0.025em;
+}
+
+:is(.dark .dark\:text-white) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.text-blue-600 {
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.h-3 {
+  height: 0.75rem;
+}
+
+.line-clamp-5 {
+  display: -webkit-box;
+  display: box;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

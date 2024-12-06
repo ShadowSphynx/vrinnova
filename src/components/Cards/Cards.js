@@ -10,22 +10,22 @@ function Card() {
         <div className="mantine-Grid-root w-3/4 mantine">
           <FlipCard
             image="https://lp.com.vn/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fderjssgq9%2Fimage%2Fupload%2Fv1693208949%2Fdownload_6_svy5oe.webp&w=640&q=75"
-            header="SERVICE"
+            header="Testimonial 1"
             details="Service details"
           />
           <FlipCard
             image="https://lp.com.vn/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fderjssgq9%2Fimage%2Fupload%2Fv1693208949%2Fdownload_6_svy5oe.webp&w=640&q=75"
-            header="CYBER SECURITY"
+            header="Testimonial 2"
             details="Cyber security details"
           />
           <FlipCard
             image="https://lp.com.vn/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fderjssgq9%2Fimage%2Fupload%2Fv1693208949%2Fdownload_6_svy5oe.webp&w=640&q=75"
-            header="SYSTEM/CLOUD"
+            header="Testimonial 3"
             details="System/Cloud details"
           />
           <FlipCard
             image="https://lp.com.vn/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fderjssgq9%2Fimage%2Fupload%2Fv1693208949%2Fdownload_6_svy5oe.webp&w=640&q=75"
-            header="NETWORK SYSTEM"
+            header="Testimonial 4"
             details="Network system details"
           />
         </div>

@@ -27,33 +27,23 @@ function Footer() {
                     </a>
                   </li>
                   <li>
-                    <a className="hover:underline" href="/Solution">
-                      Solutions
-                    </a>
-                  </li>
-                  <li>
-                    <a className="hover:underline" href="/Service">
-                      Services
-                    </a>
-                  </li>
-                  <li>
-                    <a className="hover:underline" href="/blog">
-                      News
-                    </a>
-                  </li>
-                  <li>
-                    <a className="hover:underline" href="/contact">
-                      Contact
-                    </a>
-                  </li>
-                  <li>
-                    <a className="hover:underline" href="/about">
+                    <a className="hover:underline" href="/AboutUs">
                       About Us
                     </a>
                   </li>
                   <li>
-                    <a className="hover:underline" href="/recruitment">
-                      Recruitment
+                    <a className="hover:underline" href="/Service">
+                      IT Services
+                    </a>
+                  </li>
+                  <li>
+                    <a className="hover:underline" href="/Contact">
+                      Let's Talk
+                    </a>
+                  </li>
+                  <li>
+                    <a className="hover:underline" href="/Testimonials">
+                      Testimonials
                     </a>
                   </li>
                 </ul>
@@ -74,9 +64,7 @@ function Footer() {
                       <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path>
                     </svg>
                     <ul className="ml-2">
-                      <li>(+84) 28 3821 6684</li>
-                      <li>(+84) 28 3821 6688</li>
-                      <li>Hotline 24/7: 0888 827 927</li>
+                      <li>(+91) 4035785010</li>
                     </ul>
                   </li>
                   <li className="flex">
@@ -92,7 +80,10 @@ function Footer() {
                       <rect x="3" y="5" width="18" height="14" rx="2"></rect>
                       <polyline points="3 7 12 13 21 7"></polyline>
                     </svg>
-                    <span className="ml-2">info@lp.com.vn</span>
+                    <ul>
+                      <li className="ml-2">Hello@vrinnovatech.com</li>
+                      <li className="ml-2">Sales@Vrinnovatech.com</li>
+                    </ul>
                   </li>
                 </ul>
               </div>

@@ -1,0 +1,27 @@
+.mr-60 {
+  margin-right: 15rem;
+}
+
+.ml-60 {
+  margin-left: 15rem;
+}
+
+@media (min-width: 280px) {
+  .sm\:mr-12 {
+    margin-right: 3rem;
+  }
+
+  .sm\:ml-12 {
+    margin-left: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mr-60 {
+    margin-right: 15rem;
+  }
+
+  .lg\:ml-60 {
+    margin-left: 15rem;
+  }
+}
